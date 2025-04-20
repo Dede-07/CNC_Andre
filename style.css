@@ -1,0 +1,76 @@
+:root {
+    --bg-light: #fffaf2;
+    --bg-dark: #1a1a1a;
+    --text-light: #000;
+    --text-dark: #f0f0f0;
+    --card-light: rgba(255, 255, 255, 0.9);
+    --card-dark: rgba(30, 30, 30, 0.9);
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-light);
+    transition: all 0.3s ease-in-out;
+    min-height: 100vh;
+}
+
+.dark-mode {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+}
+
+.dark-mode .card {
+    background-color: var(--card-dark);
+    color: var(--text-dark);
+}
+
+.dark-mode header {
+    background-color: #111;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: 3px solid #ccc;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.card {
+    background-color: var(--card-light);
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-voltar {
+    font-size: 18px;
+}
+
+.toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.search-input {
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+footer {
+    padding: 30px 0;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
