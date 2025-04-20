@@ -7,6 +7,7 @@ const FILES_TO_CACHE = [
     '/manifest.json',
     '/img/icon-192.png',
     '/img/icon-512.png',
+    '/img/logoCNC.png',
     '/audio/Amo o Senhor - Salmo 116 (114-115).mp3',
     '/audio/Como são amáveis tuas moradas - Salmo 84 (83).mp3',
     '/audio/Eu venho Reunir (Is 66, 18-21).mp3',
