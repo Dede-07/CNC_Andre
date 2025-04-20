@@ -5,8 +5,6 @@ const FILES_TO_CACHE = [
     '/style.css',
     '/script.js',
     '/manifest.json',
-    '/img/icon-192.png',
-    '/img/icon-512.png',
     '/img/logoCNC.png',
     '/audio/Amo o Senhor - Salmo 116 (114-115).mp3',
     '/audio/Como são amáveis tuas moradas - Salmo 84 (83).mp3',
