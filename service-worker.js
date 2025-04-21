@@ -11,6 +11,7 @@ const FILES_TO_CACHE = [
     '/audio/Eu venho Reunir (Is 66, 18-21).mp3',
     '/audio/Jesus percorria todas as Cidades (Mt 9, 35).mp3',
     '/audio/Ronão.mp3',
+    '/audio/seOsenhor.mp3',
     '/audio/O senhor é minha luz e salvação - Salmo 27 (26).mp3',
     '/audio/WhatsApp-Audio-2024-07-19-at-15.26.14.mp3'
 ];
